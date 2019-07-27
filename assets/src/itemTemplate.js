@@ -11,6 +11,14 @@
 cc.Class({
     extends: cc.Component,
 
+    ctor : function()
+    {
+        this.lajiType = ["可回收垃圾", "有害垃圾", "湿垃圾", "干垃圾"];
+        this.name = "";
+        this.type = 1;
+        this.introduce = "";
+    },
+
     properties: {
         // foo: {
         //     // ATTRIBUTES:
@@ -39,10 +47,19 @@ cc.Class({
 
     },
 
+    init : function(name, type, introduce)
+    {
+        this.name = name;
+        this.type = type;
+        this.introduce = introduce;
+
+        this.node.getChildByName("labelName").getComponent(cc.Label).string = this.name;
+        this.node.getChildByName("labelType").getComponent(cc.Label).string = this.lajiType[this.type - 1];
+    },
+
     onClick : function(event)
     {
-        console.log(t1, t2, t3, t4);
-        // this.node.emit()
+        cc.systemEvent.emit()
     }
 
     // update (dt) {},

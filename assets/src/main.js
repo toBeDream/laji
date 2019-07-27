@@ -67,8 +67,8 @@ cc.Class({
             item.active = true;
             this.content.addChild(item);
             item.setPosition(0, -item.height * (0.5 + parseInt(key)))
-            item.getChildByName("labelName").getComponent(cc.Label).string = searchs[key].name;
-            item.getChildByName("labelType").getComponent(cc.Label).string = this.test[searchs[key].type - 1];
+            // item.getChildByName("labelName").getComponent(cc.Label).string = searchs[key].name;
+            // item.getChildByName("labelType").getComponent(cc.Label).string = this.test[searchs[key].type - 1];
         }
     },
 
