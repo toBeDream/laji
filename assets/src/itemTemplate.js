@@ -59,7 +59,7 @@ cc.Class({
 
     onClick : function(event)
     {
-        cc.systemEvent.emit()
+        // cc.systemEvent.emit()
     }
 
     // update (dt) {},
