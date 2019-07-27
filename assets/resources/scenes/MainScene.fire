@@ -655,7 +655,7 @@
     "_useOriginalSize": true,
     "_string": "",
     "_N$string": "",
-    "_fontSize": 32,
+    "_fontSize": 24,
     "_lineHeight": 25,
     "_enableWrapText": false,
     "_N$file": null,
@@ -775,7 +775,7 @@
     "_useOriginalSize": true,
     "_string": "输入搜索内容",
     "_N$string": "输入搜索内容",
-    "_fontSize": 32,
+    "_fontSize": 24,
     "_lineHeight": 25,
     "_enableWrapText": false,
     "_N$file": null,
@@ -2273,7 +2273,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 590,
-      "height": 80
+      "height": 40
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2332,12 +2332,12 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 80,
+      "width": 48,
       "height": 50.4
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0,
+      "x": 0.5,
       "y": 0.5
     },
     "_position": {
@@ -2382,7 +2382,7 @@
     "_useOriginalSize": false,
     "_string": "猪肉",
     "_N$string": "猪肉",
-    "_fontSize": 40,
+    "_fontSize": 24,
     "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
@@ -2422,7 +2422,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 120,
+      "width": 72,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -2472,7 +2472,7 @@
     "_useOriginalSize": false,
     "_string": "湿垃圾",
     "_N$string": "湿垃圾",
-    "_fontSize": 40,
+    "_fontSize": 24,
     "_lineHeight": 40,
     "_enableWrapText": true,
     "_N$file": null,
@@ -2527,7 +2527,7 @@
     "_layoutSize": {
       "__type__": "cc.Size",
       "width": 590,
-      "height": 80
+      "height": 40
     },
     "_resize": 0,
     "_N$layoutType": 0,
