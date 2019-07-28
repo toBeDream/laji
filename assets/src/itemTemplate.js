@@ -60,7 +60,12 @@ cc.Class({
     onClick : function(event)
     {
         // cc.systemEvent.emit()
-    }
+    },
+
+    unuse : function()
+    {
+
+    },
 
     // update (dt) {},
 });
