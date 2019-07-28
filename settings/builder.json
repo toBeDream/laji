@@ -35,12 +35,12 @@
     "orientation": "portrait",
     "zip": false
   },
-  "startScene": "",
+  "startScene": "d2bde5b5-90a0-4525-b186-2e6a3a042265",
   "title": "laji",
   "webOrientation": "portrait",
   "wechatgame": {
     "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
+    "appid": "wxbb2f888fd2e5b59e",
     "orientation": "portrait",
     "separate_engine": false,
     "subContext": ""

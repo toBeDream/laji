@@ -35,6 +35,7 @@ cc.Class({
         //         this._bar = value;
         //     }
         // },
+        sp1 : cc.Node,
     },
 
     // LIFE-CYCLE CALLBACKS:
